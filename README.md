@@ -59,6 +59,7 @@ Please note the below to complete the cloud server setup
 
 1. Connect the mobile and server to the same WiFi (in case you are using localhost server).
 2. In 'android\walksmart\app\src\main\java\com\example\myapp\activity\MainActivity.java', change the FALL_SERVER_URL path to the URL where the server is hosted (you can see this path when you start the server).
+3. To store the service inputs on the server, create a folder `data/raw/service_inputs/` - this data can be used as training data to further improve the model.
 
 ### (C) Android
 
